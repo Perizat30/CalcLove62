@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"/>
+
+    <EditText
+        android:id="@+id/edit_txt_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_edit_text"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:hint="first"/>
+
+    <EditText
+        android:id="@+id/edit_txt_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_edit_text"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:textSize="30sp"
+        android:hint="second"/>
+
+    <Button
+        android:id="@+id/calculateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Calculate" />
+
+
+</LinearLayout>
