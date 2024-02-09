@@ -1,7 +1,7 @@
-package com.example.calclove62
+package com.example.calclove62.remote
 
 data class LoveModel(
-    var fistName: String,
+    var firstName: String,
     var secondName: String,
     var percentage: String,
     var result: String

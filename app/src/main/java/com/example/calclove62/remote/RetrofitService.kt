@@ -1,4 +1,4 @@
-package com.example.calclove62
+package com.example.calclove62.remote
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">CalcLove62</string>
+    <string name="decrement">Decrement</string>
+    <string name="increment">Increment</string>
+    <string name="_0">0</string>
+    <string name="calculate">Calculate</string>
+    <string name="second">second</string>
+    <string name="first">first</string>
 </resources>

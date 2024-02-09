@@ -13,10 +13,13 @@ class SecondActivity : AppCompatActivity() {
         binding = ActivitySecondBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val firstName = intent.getStringExtra("firstName")
+        val secondName = intent.getStringExtra("secondName")
         val percentage = intent.getStringExtra("percentage")
         val result = intent.getStringExtra("result")
 
+
         binding.percentageTextView.text = percentage
-        binding.resultTextView.text = result
+        binding.resultTextView.text = "${firstName} \n ${secondName} \n ${result}"
     }
 }

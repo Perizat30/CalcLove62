@@ -1,5 +1,4 @@
-package com.example.calclove62
-
+package com.example.calclove62.remote
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Header
